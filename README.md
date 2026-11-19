@@ -1,67 +1,67 @@
 # Wars Star
 
-A deep-blue [Omarchy](https://omarchy.org) theme inspired by a lightsaber duel in a frozen forest — icy blues, cool cyans and a touch of red.
+Um tema [Omarchy](https://omarchy.org) em azul profundo, inspirado num duelo de sabres de luz numa floresta congelada — azuis gelados, cianos frios e um toque de vermelho.
 
 ![Desktop](screenshots/desktop.jpg)
 
-## Screenshots
+## Prints
 
-| Terminals (fastfetch + Neovim) | Omarchy menu |
+| Terminais (fastfetch + Neovim) | Menu do Omarchy |
 | --- | --- |
-| ![Terminals](screenshots/terminals.jpg) | ![Menu](screenshots/menu.jpg) |
+| ![Terminais](screenshots/terminals.jpg) | ![Menu](screenshots/menu.jpg) |
 
-## Install
+## Instalação
 
 ```bash
 omarchy theme install https://github.com/eusener/omarchy-wars-star.git
 ```
 
-Or open **Menu → Install → Style → Theme** and paste the repository URL.
+Ou abra **Menu → Instalar → Estilo → Tema** e cole a URL do repositório.
 
-The theme is installed as **Wars Star** and applied right away. To switch back to it later:
+O tema é instalado como **Wars Star** e aplicado na hora. Para voltar a ele depois:
 
 ```bash
 omarchy theme set "Wars Star"
 ```
 
-To update, run the install command again — it replaces the previous copy.
+Para atualizar, rode o comando de instalação de novo — ele substitui a cópia anterior.
 
-## What's included
+## O que está incluído
 
-| File | Purpose |
+| Arquivo | Função |
 | --- | --- |
-| `colors.toml` | Palette — Omarchy generates terminal, Hyprland border, btop, Neovim, browser, GTK and other app colors from it |
-| `shell.*.toml` | Omarchy shell surfaces: bar, launcher, menu, notifications, popups and tooltips (translucent blue panels) |
-| `icons.theme` | Icon theme (`Yaru-blue`) |
-| `backgrounds/` | Wallpaper, plus an animated intro played when switching to the theme |
-| `unlock.png`, `preview*.png` | Lock screen logo and theme-picker previews |
-| `extras/hyprland-looknfeel.lua` | Optional window rounding, blur and transparency (see below) |
+| `colors.toml` | Paleta — o Omarchy gera a partir dela as cores do terminal, da borda do Hyprland, do btop, do Neovim, do navegador, do GTK e de outros apps |
+| `shell.*.toml` | Superfícies do Omarchy shell: barra, launcher, menu, notificações, popups e tooltips (painéis azuis translúcidos) |
+| `icons.theme` | Tema de ícones (`Yaru-blue`) |
+| `backgrounds/` | Wallpaper, mais uma intro animada exibida ao trocar para o tema |
+| `unlock.png`, `preview*.png` | Logo da tela de bloqueio e prévias do seletor de temas |
+| `extras/hyprland-looknfeel.lua` | Cantos arredondados, blur e transparência opcionais (veja abaixo) |
 
-### Palette
+### Paleta
 
 | accent | background | foreground | red | yellow | green | cyan | magenta |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | `#49bdff` | `#002236` | `#cbdae5` | `#d195ef` | `#daa932` | `#49cc95` | `#00c9d0` | `#de91e2` |
 
-## Optional: rounding, blur and transparency
+## Opcional: cantos arredondados, blur e transparência
 
-For safety, `omarchy theme install` never loads Lua files from a theme repository, so the window look & feel tweaks are opt-in. The active border color is already derived from `accent`, so you don't need them for the theme to look right.
+Por segurança, o `omarchy theme install` nunca carrega arquivos Lua de um repositório de tema, então os ajustes visuais das janelas são opcionais. A cor da borda ativa já é derivada do `accent`, então eles não são necessários para o tema ficar correto.
 
-To enable them, append the file to your Hyprland config:
+Para ativá-los, acrescente o arquivo à sua configuração do Hyprland:
 
 ```bash
 cat ~/.config/omarchy/themes/wars-star/extras/hyprland-looknfeel.lua >> ~/.config/hypr/looknfeel.lua
 ```
 
-Note these settings then apply to every theme, not only Wars Star.
+Observação: esses ajustes passam a valer para todos os temas, não só para o Wars Star.
 
-## Uninstall
+## Desinstalação
 
 ```bash
-omarchy theme set "Tokyo Night"   # or any other theme
+omarchy theme set "Tokyo Night"   # ou qualquer outro tema
 rm -rf ~/.config/omarchy/themes/wars-star
 ```
 
-## Credits
+## Créditos
 
-Wallpaper is fan art of *Star Wars: The Force Awakens* by Dan Mumford. Star Wars is a trademark of Lucasfilm Ltd. This is an unofficial, non-commercial fan theme.
+O wallpaper é uma fan art de *Star Wars: O Despertar da Força* feita por Dan Mumford. Star Wars é uma marca registrada da Lucasfilm Ltd. Este é um tema de fã não oficial e sem fins comerciais.
