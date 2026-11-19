@@ -1,18 +1,10 @@
-local active_border_color = "rgb(49bdff)"
+-- Wars Star — optional Hyprland look & feel tweaks.
+--
+-- `omarchy theme install` never loads Lua from a cloned theme, so these are
+-- opt-in. The active border color is already generated from `accent` in
+-- colors.toml. To use them, paste this block into ~/.config/hypr/looknfeel.lua.
 
 hl.config({
-  general = {
-    col = {
-      active_border = active_border_color,
-    },
-  },
-
-  group = {
-    col = {
-      border_active = active_border_color,
-    },
-  },
-
   decoration = {
     rounding = 4,
     rounding_power = 3,
