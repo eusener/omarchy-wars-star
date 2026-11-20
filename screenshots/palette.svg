@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="932" height="512" viewBox="0 0 932 512" font-family="JetBrains Mono, monospace">
+<rect width="932" height="512" rx="12" fill="#000d18"/>
+<text x="16" y="36" fill="#49bdff" font-size="18" font-weight="bold">Wars Star · colors.toml</text>
+<rect x="20" y="56" width="142" height="62" rx="6" fill="#002236" stroke="#083248"/>
+<text x="22" y="136" fill="#cbdae5" font-size="12">background</text>
+<text x="22" y="152" fill="#7f96a6" font-size="12">#002236</text>
+<rect x="170" y="56" width="142" height="62" rx="6" fill="#001625" stroke="#083248"/>
+<text x="172" y="136" fill="#cbdae5" font-size="12">dark_background</text>
+<text x="172" y="152" fill="#7f96a6" font-size="12">#001625</text>
+<rect x="320" y="56" width="142" height="62" rx="6" fill="#083248" stroke="#083248"/>
+<text x="322" y="136" fill="#cbdae5" font-size="12">lighter_background</text>
+<text x="322" y="152" fill="#7f96a6" font-size="12">#083248</text>
+<rect x="470" y="56" width="142" height="62" rx="6" fill="#0d4766" stroke="#083248"/>
+<text x="472" y="136" fill="#cbdae5" font-size="12">selection</text>
+<text x="472" y="152" fill="#7f96a6" font-size="12">#0d4766</text>
+<rect x="620" y="56" width="142" height="62" rx="6" fill="#21526f" stroke="#083248"/>
+<text x="622" y="136" fill="#cbdae5" font-size="12">muted</text>
+<text x="622" y="152" fill="#7f96a6" font-size="12">#21526f</text>
+<rect x="770" y="56" width="142" height="62" rx="6" fill="#49bdff" stroke="#083248"/>
+<text x="772" y="136" fill="#cbdae5" font-size="12">accent</text>
+<text x="772" y="152" fill="#7f96a6" font-size="12">#49bdff</text>
+<rect x="20" y="166" width="142" height="62" rx="6" fill="#cbdae5" stroke="#083248"/>
+<text x="22" y="246" fill="#cbdae5" font-size="12">foreground</text>
+<text x="22" y="262" fill="#7f96a6" font-size="12">#cbdae5</text>
+<rect x="170" y="166" width="142" height="62" rx="6" fill="#7f96a6" stroke="#083248"/>
+<text x="172" y="246" fill="#cbdae5" font-size="12">dark_foreground</text>
+<text x="172" y="262" fill="#7f96a6" font-size="12">#7f96a6</text>
+<rect x="320" y="166" width="142" height="62" rx="6" fill="#deeef9" stroke="#083248"/>
+<text x="322" y="246" fill="#cbdae5" font-size="12">bright_foreground</text>
+<text x="322" y="262" fill="#7f96a6" font-size="12">#deeef9</text>
+<rect x="470" y="166" width="142" height="62" rx="6" fill="#d195ef" stroke="#083248"/>
+<text x="472" y="246" fill="#cbdae5" font-size="12">red</text>
+<text x="472" y="262" fill="#7f96a6" font-size="12">#d195ef</text>
+<rect x="620" y="166" width="142" height="62" rx="6" fill="#fd8a8d" stroke="#083248"/>
+<text x="622" y="246" fill="#cbdae5" font-size="12">orange</text>
+<text x="622" y="262" fill="#7f96a6" font-size="12">#fd8a8d</text>
+<rect x="770" y="166" width="142" height="62" rx="6" fill="#daa932" stroke="#083248"/>
+<text x="772" y="246" fill="#cbdae5" font-size="12">yellow</text>
+<text x="772" y="262" fill="#7f96a6" font-size="12">#daa932</text>
+<rect x="20" y="276" width="142" height="62" rx="6" fill="#49cc95" stroke="#083248"/>
+<text x="22" y="356" fill="#cbdae5" font-size="12">green</text>
+<text x="22" y="372" fill="#7f96a6" font-size="12">#49cc95</text>
+<rect x="170" y="276" width="142" height="62" rx="6" fill="#00c9d0" stroke="#083248"/>
+<text x="172" y="356" fill="#cbdae5" font-size="12">cyan</text>
+<text x="172" y="372" fill="#7f96a6" font-size="12">#00c9d0</text>
+<rect x="320" y="276" width="142" height="62" rx="6" fill="#49bdff" stroke="#083248"/>
+<text x="322" y="356" fill="#cbdae5" font-size="12">blue</text>
+<text x="322" y="372" fill="#7f96a6" font-size="12">#49bdff</text>
+<rect x="470" y="276" width="142" height="62" rx="6" fill="#de91e2" stroke="#083248"/>
+<text x="472" y="356" fill="#cbdae5" font-size="12">magenta</text>
+<text x="472" y="372" fill="#7f96a6" font-size="12">#de91e2</text>
+<rect x="620" y="276" width="142" height="62" rx="6" fill="#7f4547" stroke="#083248"/>
+<text x="622" y="356" fill="#cbdae5" font-size="12">brown</text>
+<text x="622" y="372" fill="#7f96a6" font-size="12">#7f4547</text>
+<rect x="770" y="276" width="142" height="62" rx="6" fill="#e6b4ff" stroke="#083248"/>
+<text x="772" y="356" fill="#cbdae5" font-size="12">bright_red</text>
+<text x="772" y="372" fill="#7f96a6" font-size="12">#e6b4ff</text>
+<rect x="20" y="386" width="142" height="62" rx="6" fill="#f5c351" stroke="#083248"/>
+<text x="22" y="466" fill="#cbdae5" font-size="12">bright_yellow</text>
+<text x="22" y="482" fill="#7f96a6" font-size="12">#f5c351</text>
+<rect x="170" y="386" width="142" height="62" rx="6" fill="#67e6ae" stroke="#083248"/>
+<text x="172" y="466" fill="#cbdae5" font-size="12">bright_green</text>
+<text x="172" y="482" fill="#7f96a6" font-size="12">#67e6ae</text>
+<rect x="320" y="386" width="142" height="62" rx="6" fill="#41e3ea" stroke="#083248"/>
+<text x="322" y="466" fill="#cbdae5" font-size="12">bright_cyan</text>
+<text x="322" y="482" fill="#7f96a6" font-size="12">#41e3ea</text>
+<rect x="470" y="386" width="142" height="62" rx="6" fill="#92d4ff" stroke="#083248"/>
+<text x="472" y="466" fill="#cbdae5" font-size="12">bright_blue</text>
+<text x="472" y="482" fill="#7f96a6" font-size="12">#92d4ff</text>
+<rect x="620" y="386" width="142" height="62" rx="6" fill="#f9aafd" stroke="#083248"/>
+<text x="622" y="466" fill="#cbdae5" font-size="12">bright_magenta</text>
+<text x="622" y="482" fill="#7f96a6" font-size="12">#f9aafd</text>
+</svg>

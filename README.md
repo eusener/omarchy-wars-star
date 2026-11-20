@@ -10,6 +10,8 @@ Um tema [Omarchy](https://omarchy.org) em azul profundo, inspirado num duelo de 
 | --- | --- |
 | ![Terminais](screenshots/terminals.jpg) | ![Menu](screenshots/menu.jpg) |
 
+![btop e fastfetch no Kitty](screenshots/btop.jpg)
+
 ## Instalação
 
 ```bash
@@ -38,6 +40,8 @@ Para atualizar, rode o comando de instalação de novo — ele substitui a cópi
 | `extras/hyprland-looknfeel.lua` | Cantos arredondados, blur e transparência opcionais (veja abaixo) |
 
 ### Paleta
+
+![Paleta completa do colors.toml](screenshots/palette.svg)
 
 | accent | background | foreground | red | yellow | green | cyan | magenta |
 | --- | --- | --- | --- | --- | --- | --- | --- |
